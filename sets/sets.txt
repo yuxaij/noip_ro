@@ -1,0 +1,95 @@
+
+Day1.
+   - reversa (离散化 + 树状数组 / 归并排序)     
+   - lis     (搜索 / 状态压缩 DP + LIS nlogn 栈算法)      
+   - mst     (hash + 并查集 + 启发式合并)     
+
+   - TEST POINTS:
+	- 离散化
+	- 归并排序
+	- 树状数组
+  	- 记忆化搜索，状态压缩
+	- LIS NLOGN 算法
+	- HASH 表
+	- (持久化)并查集
+	- 启发式合并
+
+   - EXTENDIES (PROBLEM RUSH):
+	- 离散化 -> 二维关键字 O(n) 排序 （链表、无链表)
+        - 归并排序 -> 查 K 大
+        - lis
+        - HASH 表 -> 
+  	- 并查集  -> 带权并查集，树上路径交换律和
+        - 启发式合并 (布丁)
+          
+   
+Day2:
+   - mod (大步小步 / 求逆 / Extended Euclid / 费马-欧拉 / 线筛)
+   - broadcast (单调队列 / TARJAN / 线段树优化)
+   - query (分治 + 各类方法实现)
+
+   - POINTS: 
+	- 大步小步，分块+分组
+	- 线筛，欧拉函数
+	- 逆元，费马-欧拉，拓欧
+        - 二分图，匈牙利，广搜
+	- 最大流 Ford-Fulkerson，最小割最大流
+	- 分治
+	- 
+
+Day3:
+   - str
+   - stone
+   - tree 
+
+Day4:
+   - knapsack
+   - trans
+   - path
+
+Day5:
+   - coins
+   - flow (最大费用流 + 贪心调整 + 二分图与网络流 + 拟阵)
+   - sequence (离线算法 + 莫队 / 树状数组)
+ 
+
+
+reversa (离散化 + 树状数组　/ 归并排序)
+
+Level 1. (知识点)
+  - reversa (离散化 + 树状数组 / 归并排序)
+  - mod (大步小步 / 求逆 / Extended Euclid / 费马-欧拉 / 线筛)
+  - knapsack (单调背包问题 何种程度 + 记录方案的分治)
+  - str (字符串 HASH + nlogn 枚举 / KMP / Z-Algorithm)
+  - coins (期望 + 容斥 + 高精度)
+
+Level 2. (模型)
+  - trans (贪心 + DP + 单调性)
+  - broadcast (单调队列 / TARJAN / 线段树优化)
+  - lis (搜索 / 状态压缩 DP + LIS nlogn 栈算法)
+　- flow (最大费用流 + 贪心调整 + 二分图与网络流 + 拟阵)
+  - stone (综合向 DP)
+
+Level 3. (题目)
+  - tree (DFS + 差分树状数组 + LCA，虚树)
+  - path (二分/倍增 + LCA/RMQ)
+  - mst. (hash + 并查集 + 启发式合并)
+  - query (分治 + 各类方法实现)
+  - sequence (离线算法 + 莫队 / 树状数组)
+
+Level X. Problem Rush.
+  In this part, you are not required to write the code for a problem, instead, you must carefully write down the solution, including the algorithm and proof.
+
+  1. Calculations 
+
+  2. Greedy
+
+  3. DP
+
+  4. DCs, DSs.
+
+  5. Trees.
+
+  4 Problems for a day.
+
++ Give yours a review for NOIP problems.

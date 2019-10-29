@@ -1,0 +1,26 @@
+ret = [["测试点","$n$","$m$","$L$","v", r"$\sum K$","特殊条件"]]
+global_sigma_k = 5*(10**5)
+global_n = 10**5
+global_m = 2*10**5
+global_L = 20
+global_v = 10**5
+spcs = {
+  'null': "无",
+  'k=2': "$k=2$",
+  'a=b': "$a=b$",
+  'subi': "不存在一条树边的两个顶点分别为某个询问中连通块所代表的子图中某个度数大于 $1$ 的顶点，和该子图外的某一顶点"
+}
+for datum in prob['data']:
+	args = datum.get('args', {})
+	row = [
+		','.join(map(str, datum['cases'])),
+		r"$\leq %s$" % tl.hn(args.get('n', global_n)),
+		r"$\leq %s$" % tl.hn(args.get('m', global_m)),
+		"$= %s$" % tl.hn(args.get('L', global_L)),
+		r"$\leq %s$" % tl.hn(args.get('v', global_v)),
+		r"$\leq %s$" % tl.hn(args.get('sigma_k', global_sigma_k)),
+		"%s" % spcs[args.get('spc', 'null')]
+	]
+	ret.append(row)
+base.log.debug(u'输出调试信息')
+return merge_ver(ret)

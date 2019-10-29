@@ -1,0 +1,37 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- cases: [1,2]
+  args: {p: 1000000, conds: same}
+- cases: [3,4,5]
+  args: {p: 1000000, q: 10000}
+- cases: [6,7,8]
+  args: {conds: prime}
+- cases: [9,10]
+  args: {}
+folder: problem
+memory limit: 256 MiB
+name: mod
+partial score: false
+pre: []
+samples: []
+time limit: 1.0
+title:
+  zh-cn: 模方程
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+    phi:
+      expected: == 75
+      path: std/phi.cpp
+    prime:
+      expected: == 60
+      path: std/prime.cpp
+version: 2

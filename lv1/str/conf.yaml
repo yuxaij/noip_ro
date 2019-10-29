@@ -1,0 +1,50 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    n: 1000
+  cases:
+  - 1
+  - 2
+  score: 20
+- args:
+    n: 200000
+  cases:
+  - 3
+  - 4
+  - 5
+  - 6
+  score: 40
+- args:
+    num: 1000000
+  cases:
+  - 7
+  - 8
+  - 9
+  - 10
+  score: 40
+folder: problem
+memory limit: 128 MiB
+name: str
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 字符串
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+    hash:
+      expected: == 60
+      path: std/hash.cpp
+version: 2

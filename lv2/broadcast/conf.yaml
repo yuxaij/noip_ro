@@ -1,0 +1,53 @@
+args:
+  n: 1000
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- cases:
+  - 1
+  - 2
+  score: 20
+  args: {n: 2000}
+- cases:
+  - 3
+  - 4
+  args: {n: 20000}
+  score: 20
+- cases:
+  - 5
+  - 6
+  - 7
+  score: 30
+  args: {n: 100000}
+- cases:
+  - 8
+  - 9
+  - 10
+  score: 30
+  args: {n: 1000000}
+folder: problem
+memory limit: 128 MiB
+name: broadcast
+partial score: false
+pre: []
+samples: []
+time limit: 1.0
+title:
+  zh-cn: 广播
+type: program
+users:
+  std:
+    linker:
+      expected: == 100
+      path: std/linker.cpp
+    std:
+      expected: == 100
+      path: std/std.cpp
+    tarjan:
+      expected: == 70
+      path: std/tarjan.cpp
+version: 2

@@ -1,0 +1,60 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    m: 1000
+    n: 1000
+  cases:
+  - 1
+  - 2
+  - 3
+  score: 15
+- args:
+    spc: k=2
+  cases:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  score: 30
+- args:
+    L: 0
+  cases:
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  score: 30
+- cases:
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  score: 25
+folder: problem
+memory limit: 512 MiB
+name: tree
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 树
+type: program
+users: 
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+version: 2

@@ -1,0 +1,52 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    n: 1000
+  cases:
+  - 1
+  - 2
+  score: 20
+- args:
+    n: 8000
+  cases:
+  - 3
+  - 4
+- args:
+    conds: c=0
+  cases:
+  - 5
+  - 6
+  - 7
+  score: 30
+- args: {}
+  cases:
+  - 8
+  - 9
+  - 10
+  score: 30
+folder: problem
+memory limit: 128 MiB
+name: vector
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 向量
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+    brute:
+      expected: == 40
+      path: std/brute.cpp
+version: 2

@@ -1,0 +1,18 @@
+ret = [["测试点","$n, m, k$","$v$","特殊条件"]]
+global_nmk = 10**5
+global_v = 10**9
+spcs = {
+  'null': "无",
+  'nodel': "没有删除操作",
+}
+for datum in prob['data']:
+	args = datum.get('args', {})
+	row = [
+		','.join(map(str, datum['cases'])),
+		r"$\leq %s$" % tl.hn(args.get('nmk', global_nmk)),
+		r"$\leq %s$" % tl.hn(args.get('v', global_v)),
+		"%s" % spcs[args.get('spc', 'null')]
+	]
+	ret.append(row)
+base.log.debug(u'输出调试信息')
+return merge_ver(ret)

@@ -1,0 +1,22 @@
+ret = [["测试点","$p$","$a,b$", "方程组数", "特殊条件"]]
+g_p = 10**7
+g_q = 10**5
+
+conds = {
+    'null': "无",
+    'prime': "$a,b$ 与 $p$ 互质",
+    'same': "所有方程组的$a,p$相同，且$b,p$互质"
+}
+
+for datum in prob['data']:	#引用conf.json/yaml中的变量
+	args = datum['args']
+	row = [
+		','.join(map(str, datum['cases'])),
+                r"$\leq %s$" % tl.hn(args.get('p', g_p)),
+                r"$< p$",
+                r"$\leq %s$" % tl.hn(args.get('q', g_q)),
+                r"%s" % conds[args.get('conds', 'null')],
+	]
+	ret.append(row)	#这是python数组的push_back
+base.log.debug(u'输出调试信息')	#渲染题面时会在控制台输出需要调试的信息，不需要可以删除
+return merge_ver(ret)	#这个函数可以把竖直方向上相同的格子合并
