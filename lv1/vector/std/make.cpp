@@ -1,3 +1,4 @@
+#include <ctime>
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>
@@ -12,7 +13,8 @@ using namespace std;
 set <pair<int, int> > t;
 
 int main(int argc, char **argv) {
-    srand((unsigned)time(NULL));
+    time_t tn = time(NULL);
+    srand((unsigned)tn);
     int n, mode, a, b, c, d;
     sscanf(argv[1], "%d", &n);
     sscanf(argv[2], "%d", &mode);
@@ -51,4 +53,5 @@ int main(int argc, char **argv) {
             
         cout << a << " " << b << endl;
     }
+    while (time(NULL) - tn == 0);
 }

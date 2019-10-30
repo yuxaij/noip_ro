@@ -17,7 +17,8 @@ bool cmp(const int &a, const int &b) {
 int main(int argc, char **argv)
 {
     int drange_affiner;
-    srand((unsigned)time(NULL));
+    time_t tn = time(NULL);
+    srand((unsigned)tn);
     sscanf(argv[1], "%d", &n);
     sscanf(argv[2], "%d", &drange_affiner);
 
@@ -36,4 +37,7 @@ int main(int argc, char **argv)
     cout << n << endl;
     for (int i = 1; i <= n; ++i)
         cout << x[p[i]] + i << " " << d[p[i]] << endl;
+
+    while (time(NULL) - tn == 0);
+    cerr << "fin case." << endl;
 }

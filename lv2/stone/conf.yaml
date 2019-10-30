@@ -1,0 +1,47 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- cases: [1,2]
+  scores: 20
+  args: {n: 10}
+- cases: [3,4]
+  scores: 20
+  args: {n: 12}
+- cases: [5,6,7]
+  scores: 30
+  args: {m: =2}
+- cases: [8,9,10]
+  scores: 30
+  args: {}
+folder: problem
+memory limit: 512 MiB
+name: lis
+partial score: false
+pre: []
+samples: []
+time limit: 1.0
+title:
+  zh-cn: 最长上升子序列
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+    brute:
+      expected: == 40
+      path: std/brute.cpp
+    killa:
+      expected: == 70
+      path: std/killa.cpp
+    dp:
+      expected: == 30
+      path: std/dp.cpp
+    naive:
+      expected: == 40
+      path: std/naive.cpp
+version: 2

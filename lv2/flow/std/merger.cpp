@@ -5,7 +5,7 @@
 #include <iostream>
 #include <algorithm>
 const int MAXN = int(5e4);
-const int MAXM = int(1e5);
+const int MAXM = MAXN * 4;
 
 struct cmp_by_int64 {
     static long long *arr; // declare
@@ -19,14 +19,30 @@ long long *cmp_by_int64::arr = nullptr; // define
 
 struct node {
     int id;
+    node **mapper;
     node *lef, *rig, *f;
 
-    void swap_f() {
+    void set_father() {
+        if (lef != nullptr)
+            lef->f = this;
+        if (rig != nullptr)
+            rig->f = this;
+    }
+
+    void swap_f() { 
         if (f->lef == this)
             std::swap(rig, f->rig), f->lef = lef, lef = f;
         else
             std::swap(lef, f->lef), f->rig = rig, rig = f; 
-        std::swap(f, f->f);
+        node *odf = f->f;
+        f->set_father(), this->set_father();
+
+        if (odf != nullptr)
+            if (odf->lef == f)
+                odf->lef = this;
+            else
+                odf->rig = this;
+        f = odf;
     }
 };
 node *merge(node *a, node *b) { // mergable random heap 
@@ -46,23 +62,27 @@ node *insert(node *root, node *b) {
     return merge(root, b); 
 }
 node *update(node *root, node *b, bool del=false) {
-    if (b != root)
-        while (root->f != b)
+    if (b != root) {
+        while (root->f != b) {
             b->swap_f();
+        }
+    } 
     root = merge(b->lef, b->rig);
+    b->lef = b->rig = nullptr;
     
-    if (del == true)
-        b->lef = b->rig = nullptr;
-    else
+    if (del == false)
         root = merge(root, b);
 
+    if (root != nullptr)
+        root->f = nullptr;
     return root;
 }
 node *erase(node *root, node *b) {
     return update(root, b, true);
 }
 
-node nodes[MAXN + 10];
+node nodes_arr[MAXN + 10];
+node *nodes[MAXN + 10];
 
 int g[MAXN + 10];
 int c[2*MAXM + 10], next[2*MAXM + 10], v[2*MAXM + 10], s[2*MAXM + 10];
@@ -75,15 +95,18 @@ int Y;
 int n, m, S, T;
 
 void clear(int n) {
+    memset(g, 0, sizeof(g));
     cmp_by_int64::arr = dis;
     ap = 1;
 
     for (int i = 1; i <= n; ++i) {
-        node *nt = nodes + i;
+        node *nt = nodes_arr + i;
         nt->lef = nullptr;
         nt->rig = nullptr;
         nt->f = nullptr;
         nt->id = i;
+        nt->mapper = nodes + i;
+        nodes[i] = nt;
     }
 }
 
@@ -98,6 +121,8 @@ int main() {
         if (n == 0 && m == 0)
             break;
 
+        clear(n);
+
         std::cin >> S >> T;
         for (int i = 1; i <= m; ++i) {
             scanf("%d %d %d %d", &a, &b, &cap, &val);
@@ -111,7 +136,8 @@ int main() {
         node *root = nullptr;
 
         vis[S] = ++Y, dis[S] = 0;
-        root = insert(root, nodes + S); 
+        root = insert(root, nodes[S]); 
+
         for (int i = 1; i <= n && root != nullptr; ++i) {
             int nd = root->id;
                 
@@ -121,13 +147,16 @@ int main() {
             for (int x = g[nd]; x; x = next[x])
                 if (s[x] > 0 && vis[c[x]] <= Y)
                     if (vis[c[x]] < Y || dis[nd] + v[x] < dis[c[x]]) {
-                        if (vis[c[x]] < Y)
-                            vis[c[x]] = Y, root = insert(root, nodes + c[x]);
+                        if (vis[c[x]] < Y) {
+                            vis[c[x]] = Y;
+                            root = insert(root, nodes[c[x]]);
+                        }
 
                         dis[c[x]] = dis[nd] + v[x];
-                        root = update(root, nodes + c[x]);
+                        root = update(root, nodes[c[x]]);
                     }            
         }
+
         if (vis[T] < Y)
             std::cout << "-1" << std::endl;
         else

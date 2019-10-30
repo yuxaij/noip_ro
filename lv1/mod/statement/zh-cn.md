@@ -21,7 +21,7 @@ $$a^{(bx ~\mathrm{mod} ~p)} \equiv 1 ~ (\mathrm{mod} ~p) $$
 
 若你对于所有 $p$ 为素数的询问都给出了可行的 $x$，则你可以获得 $50\%$ 的分数。
 
-{{ s('sample', 1) }}
+{{ s('sample') }}
 {{ self.sample_text() }}
 
 {{ s('subtasks') }}

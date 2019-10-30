@@ -1,10 +1,22 @@
-ret = [["测试点","$n$","$p$"]]	#注意右斜杠经常需要两次转义
+ret = [["测试点","$n$","$m$", "$c$", "$v$", "数据组数", "特殊条件"]]	#注意右斜杠经常需要两次转义
+g_n = 50000
+g_c = 100
+g_v = 10**9
+g_q = 5
+spcs = {
+    "null": "无",
+    "zero": "可行流的流量为 0"
+}
 for datum in prob['data']:	#引用conf.json/yaml中的变量
 	args = datum['args']
 	row = [
 		','.join(map(str, datum['cases'])),
-		r"$\leq %s$" % tl.hn(args['n']),
-		r"$= %s$" % tl.hn(args['p']),
+		r"$\leq %s$" % tl.hn(args.get('n', g_n)),
+		r"$\leq 4n$",
+		r"$\leq %s$" % tl.hn(args.get('c', g_c)),
+		r"$\leq %s$" % tl.hn(args.get('v', g_v)),
+		r"$\leq %s$" % tl.hn(args.get('q', g_q)),
+		"%s" % spcs[args.get('spcs', 'null')]
 	]
 	ret.append(row)	#这是python数组的push_back
 base.log.debug(u'输出调试信息')	#渲染题面时会在控制台输出需要调试的信息，不需要可以删除

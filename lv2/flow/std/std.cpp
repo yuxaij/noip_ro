@@ -5,7 +5,7 @@
 #include <iostream>
 #include <algorithm>
 const int MAXN = int(5e4);
-const int MAXM = int(1e5);
+const int MAXM = MAXN * 4;
 
 struct cmp_by_int64 {
     static long long *arr; // declare
@@ -30,6 +30,7 @@ int Y;
 int n, m, S, T;
 
 void clear() {
+    memset(g, 0, sizeof(g));
     q.clear();
     cmp_by_int64::arr = dis;
     ap = 1;

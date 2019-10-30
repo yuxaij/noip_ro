@@ -1,0 +1,772 @@
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv1/coins，参数['noi']，开始于2019-10-21 17:55:28.453495。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-22 20:43:00.599526。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-22 20:43:45.537833。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-22 20:44:03.400350。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-22 20:44:12.818176。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-24 20:05:54.986585。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['no']，开始于2019-10-25 12:34:31.949356。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:34:33.348019。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:34:51.853723。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:35:05.707505。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:35:19.102581。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:35:58.513956。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:36:08.939939。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:36:29.982413。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:37:01.549691。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:37:45.040102。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:38:08.157011。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 12:38:46.458334。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:30:33.236402。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:31:04.469772。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:32:18.576771。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:32:37.581474。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:33:26.107121。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:33:37.953176。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:34:11.452267。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:35:21.916647。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:36:57.771606。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:37:14.077856。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:37:39.598051。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:38:24.327607。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:40:45.797895。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:41:17.629671。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:55:03.849661。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:55:23.178176。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:56:13.370136。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:56:37.346800。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:56:51.398486。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:57:30.347936。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 19:58:24.483746。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:02:25.401473。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:03:48.017995。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:04:02.966534。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:04:35.813241。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:05:04.900940。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:05:27.917003。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:06:01.916894。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-25 20:15:30.707797。
+[W]base.py:check_git:808:版本管理工具git没有安装，如果工程用git维护则你的修改可能无法成功提交。
+[I]base.py:check_git:809:一个可能的安装教程见这里：
+[I]base.py:check_git:810:https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git
+[I]base.py:check_git:813:git入门可以参看这里：
+[I]base.py:check_git:814:http://rogerdudler.github.io/git-guide/index.zh.html
+[I]base.py:check_git:815:一般推荐用ssh方式克隆仓库，并用公私钥保证安全，添加密钥的方式一般仓库的git网页上能找到。
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:17:30.349504。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[E]base.py:run_exc:951:list object has no element 3
+[I]base.py:run_exc:952:Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuack/base.py", line 949, in run_exc
+    return (True, func())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 390, in run
+    self.main()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 540, in main
+    self.ren_day()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 527, in ren_day
+    self.tex_problems.append(self.ren_prob_tex())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in ren_prob_tex
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/yuxaij/noips/sims/lv2/flow/tmp/e41dee35-6f9b-4b21-ba62-5aedfcd3de39.tex.jinja", line 1, in top-level template code
+    {{ table("data", {'width': [3, 2, 2], 'font_size': 10}) }}
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 173, in table
+    ret = get_template(temp, context['prob'].lang()).render(context, table = table, cnt = cnt, width = max_len, options = options)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/yuxaij/noips/sims/lv2/flow/tmp/table.tex.jinja", line 26, in top-level template code
+    >{ \hsize={{ tools.float(options['width'][i]) / sum_width }} \hsize \centering }X
+UndefinedError: list object has no element 3
+
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:17:49.949667。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 4], 'font_size': 10}
+[E]base.py:run_exc:951:list object has no element 6
+[I]base.py:run_exc:952:Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuack/base.py", line 949, in run_exc
+    return (True, func())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 390, in run
+    self.main()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 540, in main
+    self.ren_day()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 527, in ren_day
+    self.tex_problems.append(self.ren_prob_tex())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in ren_prob_tex
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/yuxaij/noips/sims/lv2/flow/tmp/03573114-00e7-4c30-bf0a-474c7d67d6d6.tex.jinja", line 1, in top-level template code
+    {{ table("data", {'width': [3, 2, 2, 2, 2, 4], 'font_size': 10}) }}
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 173, in table
+    ret = get_template(temp, context['prob'].lang()).render(context, table = table, cnt = cnt, width = max_len, options = options)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/yuxaij/noips/sims/lv2/flow/tmp/table.tex.jinja", line 26, in top-level template code
+    >{ \hsize={{ tools.float(options['width'][i]) / sum_width }} \hsize \centering }X
+UndefinedError: list object has no element 6
+
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:17:59.315686。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:28:02.339264。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:28:29.450182。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:28:51.847543。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:29:17.885159。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:29:52.733559。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:30:25.465459。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:31:18.023739。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:31:49.315708。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/flow，参数['noi']，开始于2019-10-30 19:32:03.522264。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2, 2, 2, 2, 4], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-30 20:43:02.321096。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[E]ren.py:table:151:'args'
+[I]ren.py:table:158:  File "./tables/data.pyinc", line 5
+[I]ren.py:table:159:	args = datum['args']
+[I]ren.py:table:161:KeyError: 'args'
+[E]base.py:run_exc:951:'args'
+[I]base.py:run_exc:952:Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/tuack/base.py", line 949, in run_exc
+    return (True, func())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 390, in run
+    self.main()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 540, in main
+    self.ren_day()
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 527, in ren_day
+    self.tex_problems.append(self.ren_prob_tex())
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in ren_prob_tex
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python2.7/dist-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/yuxaij/noips/sims/lv2/lis/tmp/0140456c-22ac-4a33-9c67-763911c7d0cb.tex.jinja", line 1, in top-level template code
+    {{ table("data", {'width': [3, 2, 2], 'font_size': 10}) }}
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 450, in <lambda>
+    table = lambda name, options = None : table(pjoin(self.prob.path, 'tables'), name, 'table.tex.jinja', self.context, options)
+  File "/usr/local/lib/python2.7/dist-packages/tuack/ren.py", line 165, in table
+    raise e
+KeyError: 'args'
+
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-30 20:43:18.220904。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-30 20:44:51.527746。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-30 20:45:24.403544。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-30 20:45:47.234376。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/test.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数[]，开始于2019-10-30 21:04:19.052577。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]test.py:test_problem:319:尝试评测题目``。
+[W]test.py:test_problem:329:题目``缺少`samples`字段，找不到样例数据。
+[I]test.py:test_problem:330:你需要在文件夹`./down`下按*.in和*.ans格式存放样例数据，
+[I]test.py:test_problem:331:然后使用`python -m tuack.gen samples`添加它们或直接配置`samples`字段。
+[W]test.py:test_problem:333:题目``的`pre`字段为空，找不到预测试数据。
+[I]test.py:test_problem:334:如果这道题目有预测试数据，你需要在文件夹`./pre`下按*.in和*.ans格式存放预测试数据，
+[I]test.py:test_problem:335:然后使用`python -m tuack.gen pre`在文件夹`./pre`下搜索预测试数据。
+[I]test.py:test_problem:336:如果这道题目没有预测试数据，你需要删除`conf.*`中的`pre`字段。
+[I]test.py:test_problem:347:共0组样例，0个预测试点，10个测试点，不是打包评测。
+[I]test.py:test_problem:411:测试程序 lis:std:std
+[I]test.py:test_problem:411:测试程序 lis:std:naive
+[I]test.py:test_problem:411:测试程序 lis:std:killa

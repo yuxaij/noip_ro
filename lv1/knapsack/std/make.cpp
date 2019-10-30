@@ -25,7 +25,8 @@ int p[maxV + 10];
 int mode;
 
 int main(int argc, char **argv) {
-    srand((unsigned)time(NULL));
+    time_t tn = time(NULL);
+    srand((unsigned)tn);
     sscanf(argv[5], "%d", &mode);
     sscanf(argv[1], "%d", &unit_value);    
     sscanf(argv[2], "%d", &V);
@@ -111,4 +112,7 @@ int main(int argc, char **argv) {
     cout << n << " " << s << endl;
     for (int i = 1; i <= n; ++i)
         cout << num[i] << " " << volume[i] << " " << value[i] << endl;
+
+    while (time(NULL) - tn == 0);
+    cerr << "fin case" << endl;
 }

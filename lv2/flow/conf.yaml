@@ -5,21 +5,18 @@ compile:
   pas: -O2
   py: ''
 data:
-- cases: [1,2]
+- cases: [1,2,3]
+  scores: 30
+  args: {n: 100}
+- cases: [4,5]
   scores: 20
-  args: {n: 5, p: 1}
-- cases: [3,4]
+  args: {n: 2000}
+- cases: [6,7]
   scores: 20
-  args: {n: 12, p: 6}
-- cases: [5,6]
-  scores: 20
-  args: {n: 12, p: 50}
-- cases: [7,8]
-  scores: 20
-  args: {n: 50, p: 6}
-- cases: [9,10]
-  scores: 20
-  args: {n: 50, p: 50}
+  args: {spcs: zero}
+- cases: [8,9,10]
+  scores: 30
+  args: {}
 folder: problem
 memory limit: 512 MiB
 name: flow
@@ -35,7 +32,13 @@ users:
     std:
       expected: == 100
       path: std/std.cpp
-    dp:
-      expected: == 40
-      path: std/dp.cpp
+    merger:
+      expected: == 100
+      path: std/merger.cpp
+    merger_mapping:
+      expected: == 100
+      path: std/merger_mapping.cpp
+    spfa:
+      expected: == 50
+      path: std/spfa.cpp
 version: 2

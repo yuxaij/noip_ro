@@ -20,7 +20,7 @@
 
 输出一行一个非负整数 $x$，表示方向角弧度在 $[A,B]$ 内的概率为 $x / n(n-1)$。
 
-{{ s('sample', 1) }}
+{{ s('sample') }}
 {{ self.sample_text() }}
 
 {{ s('subtasks') }}

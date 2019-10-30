@@ -22,7 +22,7 @@
 
 若你的输出中的第一行正确，则你可以获得 50\% 的分数。
 
-{{ s('sample', 1) }}
+{{ s('sample') }}
 {{ self.sample_text() }}
 
 {{ s('subtasks') }}

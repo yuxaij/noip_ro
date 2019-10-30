@@ -1,3 +1,4 @@
+#include <ctime>
 #include <cmath>
 #include <cstdio>
 #include <cstdlib>
@@ -92,6 +93,9 @@ int main(int argc, char **argv) {
     sscanf(argv[2], "%d", &maxp);
     sscanf(argv[3], "%d", &mode);
 
+    time_t tn = time(NULL);
+    srand((unsigned)tn);
+
     phi[1] = 0;
     for (int i = 2; i <= maxp; ++i) {
         if (prime[i] != -1)
@@ -152,4 +156,7 @@ int main(int argc, char **argv) {
             }    
         }
     }
+
+    while (time(NULL) - tn == 0);
+    cerr << "fin case." << endl;
 }

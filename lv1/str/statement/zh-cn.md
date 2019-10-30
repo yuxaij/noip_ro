@@ -20,7 +20,7 @@ $$\exists ~ string ~A,B, ~s.t., \quad S[1 \dots p] = \underbrace{\overline{ABAB 
 
 对于每组询问，输出一行一个长度为 $n$ 的 $01$ 字符串，第 $i$ 个字符描述前缀 $S[1 \dots i]$ 是否满足条件：若为 `1` 则表示满足，为 `0` 则表示不满足。
 
-{{ s('sample', 1) }}
+{{ s('sample') }}
 {{ self.sample_text() }}
 
 {{ s('subtasks') }}
