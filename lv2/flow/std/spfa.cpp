@@ -7,18 +7,6 @@
 const int MAXN = int(5e4);
 const int MAXM = int(1e5);
 
-struct cmp_by_int64 {
-    static long long *arr; // declare
-    bool operator () (const int &a, const int &b) {
-        if (arr[a] == arr[b])
-            return a < b;
-        return arr[a] < arr[b];
-    }
-};
-long long *cmp_by_int64::arr = nullptr; // define
-
-std::set <int, cmp_by_int64> q;
-
 int g[MAXN + 10];
 int c[2*MAXM + 10], next[2*MAXM + 10], v[2*MAXM + 10], s[2*MAXM + 10];
 int ap;
@@ -26,6 +14,8 @@ int ap;
 int vis[MAXN + 10];
 long long dis[MAXN + 10];
 int Y;
+
+int in[MAXN + 10], nex[MAXN + 10];
 
 int n, m, S, T;
 
@@ -42,7 +32,6 @@ void link(int a, int b, int cap, int val) {
 int main() {
     int a, b, cap, val; 
     while (true) {
-        clear();
         std::cin >> n >> m;
         if (n == 0 && m == 0)
             break;
@@ -59,24 +48,19 @@ int main() {
         }
 
         vis[S] = ++Y, dis[S] = 0;
-        q.insert(S);    
-        for (int i = 1; i <= n && !q.empty(); ++i) {
-            int nd = *q.begin();
-                
-            q.erase(q.begin());
-            vis[nd] = Y + 1;
-
-            for (int x = g[nd]; x; x = next[x])
-                if (s[x] > 0 && vis[c[x]] <= Y)
-                    if (vis[c[x]] < Y || dis[nd] + v[x] < dis[c[x]]) {
-                        if (vis[c[x]] < Y)
-                            vis[c[x]] = Y;
-                        else
-                            q.erase(c[x]);
-
-                        dis[c[x]] = dis[nd] + v[x];
-                        q.insert(c[x]);
-                    }            
+        nex[S] = 0;
+        for (int ht = S, qt = S; ht; in[ht] = false, ht = nex[ht]) {
+            for (int x = g[ht]; x; x = next[x])
+                if (s[x] > 0)
+                    if (vis[c[x]] < Y || dis[ht] + v[x] < dis[c[x]]) {
+                        vis[c[x]] = Y, dis[c[x]] = dis[ht] + v[x];
+                        if (in[c[x]] == false)
+                            if (ht != qt && dis[c[x]] <= dis[nex[ht]])
+                                nex[c[x]] = nex[ht], nex[ht] = c[x];
+                            else
+                                nex[qt] = c[x], nex[c[x]] = 0, qt = c[x];
+                        in[c[x]] = true;
+                    }
         }
         if (vis[T] < Y)
             std::cout << "-1" << std::endl;
