@@ -28,30 +28,30 @@ gen_data('2.in', [
     dst(('chain', 500, 300, 9000, meta0))
 ], dst2(600), dst2(300))
 gen_data('3.in', [
-    dst(('random', 1000, 1000, 1e9, metaN)),
+    dst(('random', 1000, 1000, 9e8, metaN)),
 ], dst2(1000), dst2(100))
 gen_data('4.in', [
-    dst(('chain', 1000, 1000, 1e9, meta1)),
+    dst(('chain', 1000, 1000, 9e8, meta1)),
 ], dst2(1000), dst2(500))
 
 gen_data('5.in', [
-    dst(('random', 50000, 20000, 1e9, metaN))
+    dst(('random', 50000, 20000, 9e8, metaN))
 ], dst2(50000), -1) 
 gen_data('6.in', [
-    dst(('chain', 50000, 50000, 1e9, meta1))
+    dst(('chain', 50000, 50000, 9e8, meta1))
 ], dst2(50000), -1)
 gen_data('7.in', [
-    dst(('chain', 50000, 50000, 1e9, meta0))
+    dst(('chain', 50000, 50000, 9e8, meta0))
 ], dst2(50000), -1)
 gen_data('8.in', [
-    dst(('chain', 50000, 50000, 1e9, meta2))
+    dst(('chain', 50000, 50000, 9e8, meta2))
 ], dst2(50000), -1)
 gen_data('9.in', [
-    dst(('chain', 50000, 50000, 1e9, meta3))
+    dst(('chain', 50000, 50000, 9e8, meta3))
 ], dst2(50000), -1)
 
 gen_data('10.in', [
-    dst(('random', 100000, 100000, 1e9, metaN)),
+    dst(('random', 100000, 100000, 9e8, metaN)),
 ], dst2(100000), dst2(50000)) 
 gen_data('11.in', [
     dst(('chain', 50000, 45000, 1e8, meta0)),
@@ -80,7 +80,7 @@ gen_data('15.in', [
 ], dst2(100000), dst2(30000)) 
 
 gen_data('16.in', [
-    dst(('chain', 500000, 500000, 1e9, meta0)),
+    dst(('chain', 500000, 500000, 9e8, meta0)),
 ], dst2(500000), dst2(250000)) 
 gen_data('17.in', [
     dst(('chain', 150000, 150000, 1e8, meta0)),

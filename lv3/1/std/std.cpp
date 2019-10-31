@@ -50,7 +50,6 @@ void dfs(int z, int ft) {
     for (int i = 1; i < MAXPI; ++i)
         parent[z][i] = parent[parent[z][i-1]][i-1];
 
-
     dfs_pos[z] = ++dfs_pos_t;
     for (int x = g[z]; x; x = nex[x])
         if (c[x] != ft) {
