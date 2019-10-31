@@ -35,4 +35,7 @@ users:
     std:
       expected: == 100
       path: std/std.cpp
+    brute:
+      expected: == 60
+      path: std/brute.cpp
 version: 2

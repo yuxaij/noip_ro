@@ -835,3 +835,14 @@ KeyError: 'args'
 [I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
 [I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
 [I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。
+[I]base.py:init:721:脚本/usr/local/lib/python2.7/dist-packages/tuack/ren.py，工程路径/home/yuxaij/noips/sims/lv2/lis，参数['noi']，开始于2019-10-31 13:01:40.704314。
+[W]base.py:check_git_lfs:820:git大文件系统lfs没有安装，如果工程使用了它你可能无法同步。
+[I]base.py:check_git_lfs:821:因为有些评测数据比较大，所以一般要求用git lfs大文件系统（Large File System）管理评测数据（in/ans）
+[I]base.py:check_git_lfs:822:一个可能的安装教程见这里：
+[I]base.py:check_git_lfs:823:https://git-lfs.github.com/
+[I]base.py:check_git_lfs:824:如果你用本工具的generator生成题目工程，那么你装好lfs以后一般可以不用再手工指定in和ans文件用lfs管理。
+[I]base.py:check_git_lfs:825:如果你的多人合作工程用到了lfs，请务必不要在没有安装lfs前把数据添加到工程中！
+[I]ren.py:ren_prob_md_j:284:渲染题目题面 noi 
+[I]ren.py:table:115:渲染表格`./tables/data.pyinc`，参数{'width': [3, 2, 2], 'font_size': 10}
+[I]ren.py:ren_day_pdf:483:渲染比赛日题面 noi 
+[I]ren.py:ren_day_pdf:501:开始使用xelatex渲染题面。

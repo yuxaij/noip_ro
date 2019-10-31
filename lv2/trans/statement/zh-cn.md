@@ -18,7 +18,9 @@
 
 输出一行一个非负整数，描述将 $a$ 变换为非降序列所需的最少合并次数。
 
-{{ s('sample') }}
+{{ s('sample', 1) }}
+{{ self.sample_text() }}
+{{ s('sample', 2) }}
 {{ self.sample_text() }}
 
 {{ s('subtasks') }}
