@@ -1,12 +1,14 @@
-ret = [["测试点","$n$","$m$"]]	#注意右斜杠经常需要两次转义
-g_n = 15
-g_m = r"\leq n"
+ret = [["测试点","$n$","$m$", "$k"]]#注意右斜杠经常需要两次转义
+g_n = "none"
+g_m = "n+k"
+g_k = "none"
 for datum in prob['data']:	#引用conf.json/yaml中的变量
 	args = datum['args']
 	row = [
 		','.join(map(str, datum['cases'])),
-		r"$\leq %s$" % tl.hn(args.get('n', g_n)),
-                r"$%s$" % args.get('m', g_m)
+        r"$\leq %s$" % args.get('n', g_n) if str(args.get('n', g_n))[0] != '=' else "$%s$" % args.get('n'),
+        r"$\leq %s$" % args.get('m', g_m) if str(args.get('m', g_m))[0] != '=' else "$%s$" % args.get('m'),
+        r"$\leq %s$" % args.get('k', g_k) if str(args.get('k', g_k))[0] != '=' else "$%s$" % args.get('k')
 	]
 	ret.append(row)	#这是python数组的push_back
 base.log.debug(u'输出调试信息')	#渲染题面时会在控制台输出需要调试的信息，不需要可以删除

@@ -1,21 +1,38 @@
-args:
-  n: 1000
 compile:
   c: -O2 -std=c11
   cpp: -O2 -std=c++14
   java: ''
   pas: -O2
   py: ''
-data: []
+data:
+- cases: [1, 2]
+  scores: 20
+  args: {n: 300}
+- cases: [3, 4]
+  scores: 20
+  args: {n: 1500}
+- cases: [5, 6]
+  scores: 20
+  args: {n: 5000}
+- cases: [7, 8]
+  scores: 20
+  args: {n: 200000}
+- cases: [9, 10]
+  scores: 20 
+  args: {n: 3000000}
 folder: problem
 memory limit: 512 MiB
-name: name for programers
+name: trans
 partial score: false
 pre: []
 samples: []
 time limit: 1.0
 title:
-  zh-cn: 用于试题标题的中文名称
+  zh-cn: 变换
 type: program
-users: {}
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
 version: 2

@@ -91,15 +91,8 @@ int main() {
     cin >> K;
 
     memset(arrf, -1, sizeof(arrf));
-    memset(arrg, -1, sizeof(arrg));
-    memset(arrG, -1, sizeof(arrG));
 
     prepare_facs();
 
-    int ans = 0;
-    for (int i = 1; i <= n; ++i) {
-        ans = (ans + g(m - K, i, K)) % mod;
-    }
-
-    cout << ans << endl;
+    cout << f(n, K) << endl;
 }

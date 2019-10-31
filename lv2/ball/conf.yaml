@@ -5,18 +5,24 @@ compile:
   pas: -O2
   py: ''
 data:
-- cases: [1,2]
+- cases: [1]
+  scores: 10
+  args: {n: =8, m: =4, k: =0}
+- cases: [2, 3]
   scores: 20
-  args: {n: 10}
-- cases: [3,4]
+  args: {n: 18, k: 18}
+- cases: [4, 5]
   scores: 20
-  args: {n: 12}
-- cases: [5,6,7]
-  scores: 30
-  args: {m: =2}
-- cases: [8,9,10]
-  scores: 30
-  args: {}
+  args: {n: 50, m: =n+k, k: =0}
+- cases: [6]
+  scores: 10
+  args: {n: 50, m: =n+k, k: 50}
+- cases: [7, 8]
+  scores: 20 
+  args: {n: 50, k: 50}
+- cases: [9, 10]
+  scores: 20
+  args: {n: 200, k: 200}
 folder: problem
 memory limit: 512 MiB
 name: ball
@@ -32,16 +38,13 @@ users:
     std:
       expected: == 100
       path: std/std.cpp
-    brute:
-      expected: == 40
-      path: std/brute.cpp
-    killa:
-      expected: == 70
-      path: std/killa.cpp
-    dp:
+    cpdp:
       expected: == 30
-      path: std/dp.cpp
-    naive:
-      expected: == 40
-      path: std/naive.cpp
+      path: std/cpdp.cpp
+    sorta:
+      expected: == 80
+      path: std/sorta.cpp
+    eqs:
+      expected: == 30
+      path: std/eqs.cpp
 version: 2
