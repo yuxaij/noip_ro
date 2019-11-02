@@ -28,7 +28,7 @@ data:
   - 10
   score: 40
 folder: problem
-memory limit: 128 MiB
+memory limit: 512 MiB
 name: str
 partial score: false
 pre: []
@@ -41,10 +41,10 @@ title:
 type: program
 users:
   std:
-    std:
-      expected: == 100
-      path: std/std.cpp
     hash:
       expected: == 60
       path: std/hash.cpp
+    std:
+      expected: == 100
+      path: std/std.cpp
 version: 2

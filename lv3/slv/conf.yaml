@@ -1,0 +1,63 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    nmq: 100
+  cases:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  score: 30
+- args:
+    nmq: 1000
+  cases:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  score: 30
+- args:
+    nmq: 100000
+  cases:
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  score: 40
+folder: problem
+memory limit: 512 MiB
+name: slv
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 次大值
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+    stpl:
+      expected: == 30
+      path: std/stpl.cpp
+    wa_stpl:
+      expected: == 0
+      path: std/wa_stpl.cpp
+version: 2

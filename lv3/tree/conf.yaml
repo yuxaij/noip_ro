@@ -52,7 +52,7 @@ time limit: 1.0
 title:
   zh-cn: 树
 type: program
-users: 
+users:
   std:
     std:
       expected: == 100

@@ -28,3 +28,7 @@ $$a^{(bx ~\mathrm{mod} ~p)} \equiv 1 ~ (\mathrm{mod} ~p) $$
 
 {{ tbl('data', width = [3,2,2,2,8], font_size=10) }}
 
+{{ s('hint') }}
+
+有必要的话，可以考虑推广费马小定理的证明。
+

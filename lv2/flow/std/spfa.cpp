@@ -49,6 +49,7 @@ int main() {
 
         vis[S] = ++Y, dis[S] = 0;
         nex[S] = 0;
+        in[S] = true;
 
         for (int ht = S, qt = S; ht; in[ht] = false, ht = nex[ht]) {
             if (ht != qt && dis[nex[ht]] < dis[ht]) { // head swap trick
@@ -56,6 +57,8 @@ int main() {
                 nex[ht] = nex[nt];
                 nex[nt] = ht;
                 ht = nt;
+                if (qt == ht)
+                    qt = nex[ht];
             }
             for (int x = g[ht]; x; x = next[x])
                 if (s[x] > 0)

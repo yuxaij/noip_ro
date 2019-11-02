@@ -10,7 +10,8 @@ using namespace std;
 int n, V;
 int num[MAXN + 10], volume[MAXN + 10], value[MAXN + 10];
 
-long long f_arr[MAXV + 10], g_arr[MAXV + 10];
+long long f_arr[MAXV + 10];
+long long g_arr[MAXV + 10];
 long long *f = f_arr;
 long long *g = g_arr;
 

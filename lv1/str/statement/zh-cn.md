@@ -26,4 +26,3 @@ $$\exists ~ string ~A,B, ~s.t., \quad S[1 \dots p] = \underbrace{\overline{ABAB 
 {{ s('subtasks') }}
 
 {{ tbl('data', width = [3,2,2,2], font_size=10) }}
-

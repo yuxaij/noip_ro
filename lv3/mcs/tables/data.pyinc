@@ -1,0 +1,20 @@
+ret = [["测试点","$n$","q","|a_i|","k", "特殊条件"]]	#注意右斜杠经常需要两次转义
+g_k = r"\leq 10"
+spcs = {
+   'null': "无",
+   'geqhalf': r"所有询问满足 $r - l + 1 > \lfloor n/2 \rfloor$",
+   'lefsame': "所有询问的 $l=1$"
+}
+for datum in prob['data']:	#引用conf.json/yaml中的变量
+	args = datum['args']
+	row = [
+		','.join(map(str, datum['cases'])),
+                r"$\leq %s$" % tl.hn(args['n']),
+                r"$\leq %s$" % tl.hn(args['q']),
+                r"$\leq 1000$",
+                r"$%s$" % args.get('k', g_k),
+                r"%s" % spcs[args.get("spcs", 'null')]
+	]
+	ret.append(row)	#这是python数组的push_back
+base.log.debug(u'输出调试信息')	#渲染题面时会在控制台输出需要调试的信息，不需要可以删除
+return merge_ver(ret)	#这个函数可以把竖直方向上相同的格子合并

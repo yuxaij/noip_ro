@@ -5,33 +5,45 @@ compile:
   pas: -O2
   py: ''
 data:
-- cases: [1,2,3]
+- args:
+    n: 100
+  cases:
+  - 1
+  - 2
+  - 3
   scores: 30
-  args: {n: 100}
-- cases: [4,5]
+- args:
+    n: 2000
+  cases:
+  - 4
+  - 5
   scores: 20
-  args: {n: 2000}
-- cases: [6,7]
+- args:
+    spcs: zero
+  cases:
+  - 6
+  - 7
   scores: 20
-  args: {spcs: zero}
-- cases: [8,9,10]
+- args: {}
+  cases:
+  - 8
+  - 9
+  - 10
   scores: 30
-  args: {}
 folder: problem
 memory limit: 512 MiB
 name: flow
 partial score: false
 pre: []
-samples: []
+samples:
+- cases:
+  - 1
 time limit: 1.0
 title:
   zh-cn: 流网络
 type: program
 users:
   std:
-    std:
-      expected: == 100
-      path: std/std.cpp
     merger:
       expected: == 100
       path: std/merger.cpp
@@ -39,6 +51,9 @@ users:
       expected: == 100
       path: std/merger_mapping.cpp
     spfa:
-      expected: == 50
+      expected: == 80 # == 50 if no head-swap trick.
       path: std/spfa.cpp
+    std:
+      expected: == 100
+      path: std/std.cpp
 version: 2

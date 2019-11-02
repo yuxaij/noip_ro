@@ -1,0 +1,97 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    k: =1
+    n: 1000
+    q: 1000
+  cases:
+  - 1
+  - 2
+  - 3
+  - 4
+  score: 20
+- args:
+    k: =1
+    n: 50000
+    q: 100000
+    spcs: lefsame
+  cases:
+  - 5
+  - 6
+  score: 10
+- args:
+    n: 50000
+    q: 100000
+    spcs: lefsame
+  cases:
+  - 7
+  - 8
+  score: 10
+- args:
+    k: =1
+    n: 50000
+    q: 100000
+    spcs: geqhalf
+  cases:
+  - 9
+  - 10
+  score: 10
+- args:
+    n: 50000
+    q: 100000
+    spcs: geqhalf
+  cases:
+  - 11
+  - 12
+  score: 10
+- args:
+    k: =1
+    n: 50000
+    q: 100000
+  cases:
+  - 13
+  - 14
+  - 15
+  score: 15
+- args:
+    n: 50000
+    q: 100000
+  cases:
+  - 16
+  - 17
+  - 18
+  - 19
+  score: 20
+- args:
+    k: =1
+    n: 50000
+    q: 3000000
+  cases:
+  - 20
+  score: 5
+folder: problem
+memory limit: 512 MiB
+name: mcs
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 最大连续子段和
+type: program
+users:
+  std:
+    brute:
+      expected: == 20
+      path: std/brute.cpp
+    std:
+      expected: == 100
+      path: std/std.cpp
+version: 2

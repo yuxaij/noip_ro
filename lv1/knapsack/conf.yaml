@@ -44,10 +44,10 @@ title:
 type: program
 users:
   std:
-    std:
-      expected: == 100
-      path: std/std.cpp
     brute:
       expected: == 50
       path: std/brute.cpp
+    std:
+      expected: == 100
+      path: std/std.cpp
 version: 2

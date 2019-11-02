@@ -1,0 +1,50 @@
+compile:
+  c: -O2 -std=c11
+  cpp: -O2 -std=c++14
+  java: ''
+  pas: -O2
+  py: ''
+data:
+- args:
+    T: =20
+    k: 5
+  cases:
+  - 1
+  score: 10
+- args:
+    T: =5
+    k: 300
+  cases:
+  - 2
+  - 3
+  score: 20
+- args:
+    T: =3
+    k: 600
+  cases:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  score: 70
+folder: problem
+memory limit: 512 MiB
+name: ez
+partial score: false
+pre: []
+samples:
+- cases:
+  - 1
+time limit: 1.0
+title:
+  zh-cn: 送分题
+type: program
+users:
+  std:
+    std:
+      expected: == 100
+      path: std/std.cpp
+version: 2

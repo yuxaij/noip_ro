@@ -9,35 +9,27 @@ using namespace std;
 
 int n, V;
 int q[maxV + 10];
-long long f[maxN + 10][maxV + 10];
-int g[maxN + 10][maxV + 10];
+long long farr[2][maxV + 10];
+
+long long *f, *g;
 
 int volume[maxN + 10];
 int num[maxN + 10];
 int value[maxN + 10];
 
-void dfs_print(int i, int V) {
-    if (i == 0)
-        return;
-    dfs_print(i - 1, g[i][V]);
-    cout << (V - g[i][V]) / volume[i];
-    
-    if (i == n)
-        cout << endl;
-    else
-        cout << " "; 
-}
 int main() {
     cin >> n >> V;
 
-    memset(g, -1, sizeof(g));
-    memset(f, 0, sizeof(f));
+    memset(farr, -1, sizeof(farr));
 
-    f[0][0] = 0;
-    g[0][0] = 0;
+    f = farr[0];
+    g = farr[1];
+    g[0] = 0;
 
     for (int i = 1; i <= n; ++i) {
         cin >> num[i] >> volume[i] >> value[i];
+        for (int j = 0; j <= V; ++j)
+            f[j] = -1;
         for (int j = 0; j < volume[i]; ++j) {
             int h = 1, t = 0;
             int maxk = V / volume[i];
@@ -47,26 +39,20 @@ int main() {
                 while (h <= t && k - q[h] > num[i])
                     ++h;
 
-                if (g[i-1][pos] != -1) {
-                    while (h <= t && (k - q[t]) * value[i] + f[i-1][q[t] * volume[i] + j] <= f[i-1][pos])
+                if (g[pos] != -1) {
+                    while (h <= t && (k - q[t]) * value[i] + g[q[t] * volume[i] + j] <= g[pos])
                         --t;
                     q[++t] = k;
                 }
 
-                if (h <= t) {
-                    f[i][pos] = f[i-1][q[h] * volume[i] + j] + (k - q[h]) * value[i];
-                    g[i][pos] = q[h] * volume[i] + j;
-
-                }
-                else {
-                    f[i][pos] = 0;
-                    g[i][pos] = -1;
-                }
+                if (h <= t)
+                    f[pos] = g[q[h] * volume[i] + j] + (k - q[h]) * value[i];
+                        
 
                 pos += volume[i]; 
             }
         }
+        swap(f, g);
     }
-    cout << f[n][V] << endl;
-    dfs_print(n, V);
+    cout << g[V] << endl;
 }
