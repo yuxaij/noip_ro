@@ -10,7 +10,7 @@ $$a^{(bx ~\mathrm{mod} ~p)} \equiv 1 ~ (\mathrm{mod} ~p) $$
 {{ s('input format') }}
 {{ self.input_file() }}
 
-输入包含多行，每行三个正整数 $a,b,p$，描述一组方程的参数。保证 $p>2$。
+输入包含多行，每行三个正整数 $a,b,p$，描述一组方程的参数。保证 $p \geq 2$。
 
 输入以 `EOF` 结束。
 

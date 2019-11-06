@@ -60,4 +60,7 @@ users:
     wa_stpl:
       expected: == 0
       path: std/wa_stpl.cpp
+    floyd:
+      expected: == 30
+      path: std/floyd.cpp
 version: 2
