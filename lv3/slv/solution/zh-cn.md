@@ -123,11 +123,9 @@ $\rhd$ 若并查集中的任意叶子 $T$ 都满足条件 $f(T)=1$，则每次�
 + 合并得到一个连通块 $X=A+B$ 的代价 $cost(X) \leq f(A)+f(B)$
 
 容易展开得到一个中继点 $X$ 的代价和满足
-
 $$cost(X) \leq f(A) + f(B) \leq \sum_{\text{leaf L of A,B}} f(L)$$
 
 合并的总代价即为所有合并得到的中继点 $X$ 的代价和
-
 $$ \begin{aligned}
 \mathrm{TOT\_COST} &= \sum_{X} cost(X) \\
 &\leq \sum_{\text{leaf L}} f(L) \times \left(1 + \sum_{\text{parent X of L}} 1\right) \\
@@ -137,7 +135,6 @@ $$ \begin{aligned}
 令 $f(A)$ 为 $A$ 所对应连通块中的顶点个数+所有点的度数，显然是一个同时满足并查集和新增开销条件的秩。
 
 $\rhd$ 此时若仍然使用深度作为合并的关键字，则只有：
-
 $$size(depth+1) \geq size(depth) + depth+1$$
 
 很容易构造出一种深度为 $O(\sqrt{n})$ 的情况。
